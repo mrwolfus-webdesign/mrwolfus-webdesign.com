@@ -459,6 +459,7 @@ header {
     border-radius: 15px;
     text-align: center;
     cursor: pointer;
+    background: lightgray;
     transition: all .4s ease;
 }
 .contact__submit:hover{
@@ -541,7 +542,7 @@ footer span{
         bottom: 30px;
     }
     .scrolldown{
-        margin-top: -50px;
+        margin-top: -60px;
     }
     #scroll__navbar{
         height: auto;
@@ -602,5 +603,18 @@ footer span{
     }
     .photo__project{
         width: 100%;
+    }
+    .text__container{
+        margin-top: 8vh;
+    }
+    .contact__form{
+        margin-top: 5vh;
+    }
+    #contact{
+        height: auto;
+    }
+    .end{
+        margin-top: 10px;
+        margin-bottom: 40px;
     }
 }
